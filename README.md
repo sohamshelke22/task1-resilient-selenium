@@ -77,3 +77,4 @@ can fail if the application changes the ID. The scoring approach allows the auto
 
 ## Limitations
 This solution cannot guarantee resilience against arbitrary changes. If a field is renamed completely and has no meaningful label, accessibility information, placeholder, or surrounding context, the confidence score may become too low. Major structural changes, CAPTCHA, authentication requirements, and heavily dynamic applications may require additional handling. The current implementation also focuses only on the three fields required by the assignment rather than the iframe and Shadow DOM examples present on the practice page.
+
